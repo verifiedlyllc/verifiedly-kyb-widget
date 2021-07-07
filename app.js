@@ -1,5 +1,9 @@
 
-const initialize =  `
+const template = document.createElement('template')
+
+template.innerHTML=`
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
 <link rel="stylesheet" type="text/css"  href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605461/css/console_mksvog.css">
@@ -39,7 +43,7 @@ Verify with Verifiedly
 
 </div>
 </div>
-  <div class="kyc_modal_background">
+<div class="kyc_modal_background">
 <div class="kyc_modal">
 
 </div>
@@ -95,30 +99,35 @@ Verify with Verifiedly
   <!-- sass -->
   <script src="https://res.cloudinary.com/verifiedly/raw/upload/v1625604222/sass_otc3tz.js" type="text/javascript"></script>
 
-  <script>
+
+</body>
+
+<script type="text/javascript">
 //assign modal
-const kycModalBackground = document.querySelector('.kyc_modal_background')
+const kycModalBackground = document.querySelector('.kyc_modal_background');
 //assign button
-const redirectBtn = document.querySelector('.redirect_btn')
+const redirectBtn = document.querySelector('.redirect_btn');
+const showModal = () => {
+  alert('hello');
+      // kycModalBackground.style.display = 'block'
+}
 
-//add eventlistener to button that initializes the modal and kyc process
-redirectBtn.addEventListener('click', ()=>{
 
-    kycModalBackground.style.display = 'block'
-})
+
+    //add eventlistener to button that initializes the modal and kyc process
+
+    redirectBtn.addEventListener('click', showModal);
 
 </script>
-</body>
+</html>
 `
-
-
 
 class VerifiedlyKYC extends HTMLElement {
 
     constructor(){
         super();
         this.attachShadow({mode:"open"});
-        this.shadowRoot.innerHTML = initialize
+        this.shadowRoot.appendChild(template.content.cloneNode(true))
     }
 }
 
