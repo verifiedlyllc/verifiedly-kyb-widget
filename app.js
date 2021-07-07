@@ -127,8 +127,34 @@ class VerifiedlyKYC extends HTMLElement {
     constructor(){
         super();
         this.attachShadow({mode:"open"});
-        this.shadowRoot.appendChild(template.content.cloneNode(true))
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
+
+
+        
     }
+    
+    showModal(){
+  
+
+      const kycModalBackground = this.shadowRoot.querySelector('.kyc_modal_background')
+      kycModalBackground.classList.add("showModal")
+
+          };
+          connectedCallback () {
+            
+            this.shadowRoot.querySelector('.redirect_btn').addEventListener('click', () => this.showModal())
+          };
+
+          hideModal(){
+
+
+          }
+
+          disconnectedCallback(){
+            this.shadowRoot.querySelector('.redirect_btn').addEventListener('click', () => this.hideModal())
+
+          }
+  
 }
 
 customElements.define("verifiedly-btn", VerifiedlyKYC)
