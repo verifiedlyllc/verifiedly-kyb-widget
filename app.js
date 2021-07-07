@@ -1,5 +1,6 @@
 
 const initialize =  `
+<head>
 
 <link rel="stylesheet" type="text/css"  href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605461/css/console_mksvog.css">
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605461/css/dracula.min_graxc3.css">
@@ -20,6 +21,7 @@ const initialize =  `
 <link rel="stylesheet" href="./assets/css/main.css" type="text/css" />
 <!-- normalize -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" />
+</head>
 
 
 
@@ -27,11 +29,14 @@ const initialize =  `
 
 
 <div class="container">
+<div class="col-lg-6 mx-auto">
+
 <a class="btn btn_md_primary redirect_btn padding-px-4 padding-py-2 margin-t-1 margin-b-1  bg-blue rounded-12 c-white h-fit-content">
 Verify with Verifiedly
 </a>
 
 
+</div>
   <div class="kyc_modal_background">
 <div class="kyc_modal">
 
@@ -112,4 +117,4 @@ class VerifiedlyKYC extends HTMLElement {
     }
 }
 
-customElements.define("Verifiedly", VerifiedlyKYC)
+customElements.define("verifiedly-btn", VerifiedlyKYC)
