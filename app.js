@@ -29,6 +29,7 @@ const initialize =  `
 
 
 <div class="container">
+<div class="row">
 <div class="col-lg-6 mx-auto">
 
 <a class="btn btn_md_primary redirect_btn padding-px-4 padding-py-2 margin-t-1 margin-b-1  bg-blue rounded-12 c-white h-fit-content">
@@ -36,6 +37,7 @@ Verify with Verifiedly
 </a>
 
 
+</div>
 </div>
   <div class="kyc_modal_background">
 <div class="kyc_modal">
@@ -93,9 +95,7 @@ Verify with Verifiedly
   <!-- sass -->
   <script src="https://res.cloudinary.com/verifiedly/raw/upload/v1625604222/sass_otc3tz.js" type="text/javascript"></script>
 
-</body>
-`
-
+  <script>
 //assign modal
 const kycModalBackground = document.querySelector('.kyc_modal_background')
 //assign button
@@ -104,8 +104,13 @@ const redirectBtn = document.querySelector('.redirect_btn')
 //add eventlistener to button that initializes the modal and kyc process
 redirectBtn.addEventListener('click', ()=>{
 
-    kycModalBackground.classList.add('showModal')
+    kycModalBackground.style.display = 'block'
 })
+
+</script>
+</body>
+`
+
 
 
 class VerifiedlyKYC extends HTMLElement {
