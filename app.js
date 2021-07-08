@@ -496,6 +496,22 @@ else{
 }
 
           };
+
+
+          getStartedRender(expandState){
+            kycObjects.appendChild(indexPage.content.cloneNode(false));
+            if(expandState === true){
+              alert("new page")
+          
+            }
+           
+                 
+              
+                  
+                          kycObjects.shadowappendChild(getStartPage.content.cloneNode(true));
+          }
+
+          
           connectedCallback () {
 
             this.render()
@@ -504,8 +520,8 @@ else{
             this.shadowRoot.querySelector('.redirect_btn').addEventListener('click', () => this.showModal(true))
             this.shadowRoot.querySelector('.close_icon').addEventListener('click', () => this.showModal(false))
     
-
-            this.shadowRoot.querySelector('.agree_btn').addEventListener('click', () => this.getStartedRender())
+            this.shadowRoot.querySelector('.border_cancel').addEventListener('click', () => this.showModal(false))
+this.shadowRoot.querySelector('.agree_btn').addEventListener('click', () => this.getStartedRender.bind(this))
           
             if(this.getAttribute("api-key")){
 
@@ -523,12 +539,6 @@ else{
       const kycObjects = this.shadowRoot.querySelector(".kyc_objects")
       kycObjects.appendChild(indexPage.content.cloneNode(true));
               }
-getStartedRender(){
-  const kycObjects = this.shadowRoot.querySelector(".kyc_objects")
-        kycObjects.appendChild(indexPage.content.cloneNode(false));
-    
-                kycObjects.shadowappendChild(getStartPage.content.cloneNode(true));
-}
   
 }
 
