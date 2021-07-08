@@ -11935,6 +11935,7 @@ software_web
   width: 100%;
   height: 100%;
   display: none;
+  z-index: 80;
 }
 
 .showModal{
@@ -11948,8 +11949,26 @@ software_web
   max-width: 600px;
   height: 500px;
   width: 100%;
-
+position: relative;
   margin: auto;
+  z-index: 90;
+}
+
+.close_icon{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.close_icon svg{
+  position: relative;
+  z-index: 999;
+  width: 32px;
+  height: 32px;
 }
 .banner_cotact_three .cc_socialmedia a {
   display: inline-flex;
