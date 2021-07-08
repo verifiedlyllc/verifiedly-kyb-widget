@@ -12047,8 +12047,8 @@ position: relative;
 width: 24px;
 }
 .icon_wrapper{
-  width:300px;
-  height:300px;
+  width:250px;
+  height:200px;
   display: flex;
   justify-content: center;
   align-items: center;
