@@ -40,7 +40,7 @@ addressPage.innerHTML =`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -230,7 +230,7 @@ indexPage.innerHTML =`
 <!-- aos -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
 <!-- main css -->
-<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
 <!-- normalize -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
 </head>
@@ -401,7 +401,7 @@ getStartPage.innerHTML=`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -559,7 +559,7 @@ businessPage.innerHTML = `
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -778,7 +778,7 @@ verificationPage.innerHTML =`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
   <link href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/bootstrap-datepicker_zfwyag.css" rel="stylesheet" />
@@ -989,7 +989,7 @@ finishPage.innerHTML = `
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
   </head>
@@ -1134,7 +1134,7 @@ template.innerHTML=`
 <!-- aos -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
 <!-- main css -->
-<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787084/main_xsopzc.css" type="text/css" />
+<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
 <!-- normalize -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" />
 </head>

@@ -343,8 +343,8 @@ img {
 .logo img {
   vertical-align: bottom;
   margin-right: 0.5rem;
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
 }
 
 /*-----------------------------
@@ -392,8 +392,8 @@ img {
 }
 
 .imag_logo{
-  width: 40px !important;
-  height: 40px !important;
+  width: 64px !important;
+  height: 64px !important;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -11946,7 +11946,7 @@ software_web
 .kyc_modal{
 
   background: #fff;
-  max-width: 600px;
+  max-width: 700px;
   height: 700px;
   width: 100%;
 position: relative;
