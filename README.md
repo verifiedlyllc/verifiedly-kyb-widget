@@ -24,3 +24,4 @@ npm i verifiedly-kyb-widget
 <verifiedly-btn api-key="verifiedly"></verifiedly-btn>
 ```
 the api-key is needed,else it will throw an alert
+
