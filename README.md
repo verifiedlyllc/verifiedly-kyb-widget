@@ -10,7 +10,7 @@ A breakdown of how to use the verifiedly know your business widget.
 Start by adding the minified code to your webpage from the unpkg CDN in the header of your HTML file:
 
 ```
-https://unpkg.com/verifiedly-kyb-widget@1.0.1/app.js
+https://unpkg.com/verifiedly-kyb-widget@1.0.2/app.js
 ```
 
 or 
