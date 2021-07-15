@@ -10,7 +10,13 @@ A breakdown of how to use the verifiedly know your business widget.
 Start by adding the minified code to your webpage from the unpkg CDN in the header of your HTML file:
 
 ```
-https://unpkg.com/verifiedly-kyb-widget@1.0.2/app.js
+<head>
+<script
+ type="text/javascript"
+ src="https://unpkg.com/verifiedly-kyb-widget/app.js"
+></script>
+</head>
+
 ```
 
 or 
@@ -21,7 +27,15 @@ npm i verifiedly-kyb-widget
 ## 2. Render the Component
 
 ``` 
+
+<div>
 <verifiedly-btn api-key="verifiedly"></verifiedly-btn>
+</div>
+
 ```
-the api-key is needed,else it will throw an alert
+
+> The api-key is needed,else it will throw an alert
+
+
+> 🎉 You have successfully completed the Verifiedly's HTML + JS KYB integration! 
 
