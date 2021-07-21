@@ -40,7 +40,7 @@ addressPage.innerHTML =`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -56,7 +56,9 @@ addressPage.innerHTML =`
       <div class="bg-white ">    
        
     <div class="row">
+    
         <div class="form_cc_four">
+        <h6 class="c-gray margin-b-2">Provide the following information</h6>
             <form action="" class="row">
               <div class="col-md-12">
                 <div class="form-group">
@@ -230,7 +232,7 @@ indexPage.innerHTML =`
 <!-- aos -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
 <!-- main css -->
-<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
 <!-- normalize -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
 </head>
@@ -401,7 +403,7 @@ getStartPage.innerHTML=`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -559,7 +561,7 @@ businessPage.innerHTML = `
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
  
@@ -778,7 +780,7 @@ verificationPage.innerHTML =`
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
   <link href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/bootstrap-datepicker_zfwyag.css" rel="stylesheet" />
@@ -799,6 +801,7 @@ verificationPage.innerHTML =`
           </div>
     <div class="row">
         <div class="form_cc_four">
+        <h6 class="c-gray margin-b-2">Provide the following information</h6>
             <form action="" class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -989,7 +992,7 @@ finishPage.innerHTML = `
   <!-- aos -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
   <!-- main css -->
-  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+  <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" /> 
   </head>
@@ -1134,7 +1137,7 @@ template.innerHTML=`
 <!-- aos -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605460/css/aos_b6mqul.css" type="text/css" />
 <!-- main css -->
-<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625787260/main_p7kdga.css" type="text/css" />
+<link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1626904982/main_ycq3d7.css" type="text/css" />
 <!-- normalize -->
 <link rel="stylesheet" href="https://res.cloudinary.com/verifiedly/raw/upload/v1625605464/css/normalize_vjmkir.css" type="text/css" />
 </head>
